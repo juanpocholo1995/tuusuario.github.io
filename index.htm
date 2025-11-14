@@ -1,1 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Página de ejemplo — index.htm</title>
+  <meta name="description" content="Página de ejemplo con HTML, CSS y JavaScript."> 
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--glass: rgba(255,255,255,0.03)}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:linear-gradient(180deg,#071029 0%, #071a2a 60%);color:#e6eef6}
+    .container{max-width:980px;margin:48px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+    header{display:flex;align-items:center;justify-content:space-between;gap:20px}
+    h1{margin:0;font-size:1.6rem}
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-size:0.95rem}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:22px;margin-top:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.02)}
+    .lead{color:var(--muted);line-height:1.45}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#7dd3fc);color:#022; text-decoration:none;font-weight:600}
+    pre{background:var(--glass);padding:12px;border-radius:8px;overflow:auto;font-family:monospace;color:#dbeafe}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+    footer{margin-top:22px;color:var(--muted);font-size:0.9rem;text-align:center}
+    @media (max-width:880px){.hero{grid-template-columns:1fr} .grid{grid-template-columns:repeat(1,1fr)}}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div>
+        <h1>Mi sitio — index.htm</h1>
+        <div style="color:var(--muted);font-size:0.9rem">Plantilla sencilla en HTML, CSS y JS</div>
+      </div>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#features">Características</a>
+        <a href="#ejemplo">Ejemplo</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <article class="card">
+        <h2>Bienvenido</h2>
+        <p class="lead">Esta página es una plantilla lista para usar. Incluye estilos, un pequeño script interactivo y un bloque de ejemplo con código Python en un <code>&lt;pre&gt;</code>.</p>
+        <p style="margin-top:12px"><a class="btn" href="#ejemplo" id="view-example">Ver ejemplo</a></p>
+
+        <div class="grid" style="margin-top:16px">
+          <div class="card">
+            <strong>Ligera</strong>
+            <div style="color:var(--muted);font-size:0.9rem">Sin dependencias externas.</div>
+          </div>
+          <div class="card">
+            <strong>Responsiva</strong>
+            <div style="color:var(--muted);font-size:0.9rem">Se adapta a móviles y escritorios.</div>
+          </div>
+          <div class="card">
+            <strong>Editable</strong>
+            <div style="color:var(--muted);font-size:0.9rem">Abre y modifica como quieras.</div>
+          </div>
+        </div>
+      </article>
+
+      <aside class="card">
+        <h3 id="features">Características rápidas</h3>
+        <ul style="color:var(--muted);line-height:1.6">
+          <li>Meta tags y viewport</li>
+          <li>CSS moderno y variables</li>
+          <li>Bloque de código y ejemplo JS</li>
+        </ul>
+        <hr style="border:none;height:1px;background:rgba(255,255,255,0.03);margin:12px 0">
+        <div style="color:var(--muted);font-size:0.9rem">Hora local (navegador): <span id="clock">--:--:--</span></div>
+      </aside>
+    </section>
+
+    <section class="card" id="ejemplo" style="margin-top:18px">
+      <h2>Ejemplo de código</h2>
+      <p class="lead">A continuación un pequeño script en JavaScript que actualiza el reloj y un bloque de ejemplo en Python formateado en un <code>&lt;pre&gt;</code>.</p>
+
+      <h3>JavaScript (interacción)</h3>
+      <pre>// Actualiza reloj cada segundo
+function updateClock(){
+  const el = document.getElementById('clock');
+  const now = new Date();
+  el.textContent = now.toLocaleTimeString();
+}
+setInterval(updateClock,1000);
+updateClock();
+</pre>
+
+      <h3>Python (ejemplo)</h3>
+      <pre># Guarda esto en un archivo .py y ejecútalo con Python 3
+x = 42
+mensaje = f"El valor de x es {x}"
+print(mensaje)
+</pre>
+
+      <p style="margin-top:8px;color:var(--muted)">Consejo: copia este archivo y guárdalo como <code>index.htm</code> para probarlo localmente.</p>
+    </section>
+
+    <footer>
+      Hecho con ❤️ — Plantilla simple. Puedes pedirme que la convierta en React, que añada un formulario o que inserte más ejemplos.
+    </footer>
+  </main>
+
+  <script>
+    // Script principal: navegación y reloj
+    document.getElementById('view-example').addEventListener('click', function(e){
+      e.preventDefault();
+      document.getElementById('ejemplo').scrollIntoView({behavior:'smooth'});
+    });
+
+    function updateClock(){
+      const el = document.getElementById('clock');
+      if(!el) return;
+      const now = new Date();
+      el.textContent = now.toLocaleTimeString();
+    }
+    setInterval(updateClock,1000);
+    updateClock();
+  </script>
+</body>
+</html>
 
