@@ -45,8 +45,5 @@ print("¿Soy estudiante?", es_estudiante)
 En esta primera clase entendí que programar no es solo escribir código, sino aprender a pensar de manera lógica y estructurada. Las variables me parecieron especialmente importantes porque permiten darle sentido a los datos que usa un programa. Aunque todavía queda mucho por aprender, siento que estos fundamentos son un buen comienzo para desarrollar habilidades más avanzadas.
 
 ## Referencias de IA
-
-Si en algún momento se utilizó un asistente de IA como apoyo, deben registrarse las referencias aquí.
-
-* ChatGPT: conversación sobre variables en Python ([https://chat.openai.com/share/](https://chat.openai.com/share/)...)
-* Copilot: sugerencia de formato Markdown
+https://chatgpt.com/c/69169e51-5330-8327-a7a8-fb38a6b9a2a2 
+https://chatgpt.com/c/691696fd-7e3c-832c-bd76-a8ec9afa40df
