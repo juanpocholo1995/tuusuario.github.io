@@ -136,5 +136,5 @@ print("\nMovimientos finales")
 t1.adelante(2)
 t2.adelante(1)
 
-🔗 Repositorio Ejercicio 2: 👉 https://github.com/TU_USUARIO/mini_turtle_oo
+🔗 Repositorio Ejercicio 2: 👉 https://github.com/juanpocholo1995/tuusuario.github.io 
 
