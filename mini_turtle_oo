@@ -1,8 +1,0 @@
-📦 Estructura de Archivos – Ejercicio 2
-mini_turtle_oo/
-│
-├── mini_turtle_oo/
-│   ├── __init__.py
-│   └── turtle_class.py
-│
-└── main.py
