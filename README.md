@@ -65,7 +65,7 @@ print("\nDibujando algo nuevo")
 adelante(5)
 adelante(3)
 
-🔗 Repositorio Ejercicio 1: 👉 https://github.com/TU_USUARIO/mini_turtle
+🔗 Repositorio Ejercicio 1: 👉 [https://github.com/TU_USUARIO/mini_turtle](https://github.com/juanpocholo1995/mini_turtle/tree/main/mini_turtle)
 
 📌 Ejercicio 2: Versión Orientada a Objetos (POO)
 🎯 Objetivo
