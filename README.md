@@ -48,4 +48,8 @@ En esta primera clase entendí que programar no es solo escribir código, sino a
 https://chatgpt.com/c/69169e51-5330-8327-a7a8-fb38a6b9a2a2 
 https://chatgpt.com/c/691696fd-7e3c-832c-bd76-a8ec9afa40df
 
+ Repositorios (Código Fuente)
+🐢 Mini Turtle – Versión Funcional
+
+https://github.com/juanpocholo1995/mini_turtle_taks
 
