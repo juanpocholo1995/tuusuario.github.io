@@ -56,3 +56,11 @@ https://github.com/juanpocholo1995/mini_turtle_taks
 
 ⚙️ Mini Turtle – Versión Orientada a Objetos
 https://github.com/juanpocholo1995/mini_turtle_oo_task/blob/main/README.md
+
+## Modularizando el Mini Time Tracker
+
+https://github.com/juanpocholo1995/mini_tracker_task
+
+## Versión Orientada a Objetos
+
+https://github.com/juanpocholo1995/mini_tracker_oo
