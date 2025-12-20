@@ -48,6 +48,7 @@ En esta primera clase entendí que programar no es solo escribir código, sino a
 https://chatgpt.com/c/69169e51-5330-8327-a7a8-fb38a6b9a2a2 
 https://chatgpt.com/c/691696fd-7e3c-832c-bd76-a8ec9afa40df
 
+
 Actividad # 3
  Repositorios (Código Fuente)
 🐢 Mini Turtle – Versión Funcional
@@ -57,10 +58,11 @@ https://github.com/juanpocholo1995/mini_turtle_taks
 ⚙️ Mini Turtle – Versión Orientada a Objetos
 https://github.com/juanpocholo1995/mini_turtle_oo_task/blob/main/README.md
 
+
 ## Modularizando el Mini Time Tracker
 
 https://github.com/juanpocholo1995/mini_tracker_task
 
-## Versión Orientada a Objetos
+## Versión Orientada a Objetos (POO)
 
 https://github.com/juanpocholo1995/mini_tracker_oo
